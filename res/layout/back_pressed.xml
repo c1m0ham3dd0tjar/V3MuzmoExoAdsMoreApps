@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@drawable/cover" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exittext"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/malimedium"
+        android:textColor="@color/colorPrimary"/>
+
+    <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_margin="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+         android:orientation="horizontal"
+         android:layout_height="match_parent">
+         <TextView
+             android:layout_alignParentLeft="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/rate"
+             android:textSize="25dp"
+             android:id="@+id/rate_app"
+             android:textStyle="bold|italic"
+             android:fontFamily="@font/malimedium"
+             android:textColor="#fff"/>
+
+
+
+         <TextView
+             android:layout_alignParentRight="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/yesexit"
+             android:textSize="25dp"
+             android:id="@+id/yes"
+             android:textStyle="bold|italic"
+             android:fontFamily="@font/malimedium"
+             android:textColor="#fff"/>
+
+     </RelativeLayout>
+</LinearLayout>

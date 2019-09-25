@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="500dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/cover"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:columnWidth="18dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+    <!--ImageView
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_width="48dp"
+        android:id="@+id/to_store"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_store"/-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:fontFamily="@font/malimedium"
+        android:padding="5dp"
+        android:id="@+id/custom_more"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cadre_rate"
+        android:textColor="#000"/>
+</LinearLayout>
